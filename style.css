@@ -1,35 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
   line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
+  background-image: radial-gradient(#1f2937 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 header {
-  background: #222;
-  color: #fff;
-  padding: 2rem;
   text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 10px #00ffff;
 }
 
 nav a {
-  color: #fff;
+  color: #00ffff;
   margin: 0 1rem;
   text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+nav a:hover {
+  color: #66fcf1;
 }
 
 section {
   padding: 2rem;
-  background: #fff;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   max-width: 900px;
+  background: #161b22;
   border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.1);
 }
 
 h2 {
-  color: #444;
-  margin-bottom: 1rem;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 5px #00ffff;
 }
 
 .cards {
@@ -39,23 +53,33 @@ h2 {
 }
 
 .card {
-  background: #eaeaea;
+  background: #0d1117;
+  border: 1px solid #00ffff44;
   padding: 1rem;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,255,255,0.2);
 }
 
 .btn {
   display: inline-block;
-  background: #007bff;
-  color: #fff;
-  padding: 0.5rem 1rem;
+  background: #00ffff;
+  color: #0d1117;
+  padding: 0.6rem 1.2rem;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #66fcf1;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #222;
-  color: #fff;
+  background: #0f2027;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
 }
